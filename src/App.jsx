@@ -1,15 +1,13 @@
-
-import './App.css'
+import "./App.css";
+import MusicCard from "./components/MusicCard/MusicCard";
 
 function App() {
-
-
   return (
     <div className="App">
-      <h1>Hello World</h1>
-      <h2>My Name is Abraham</h2>
+      <MusicCard />
+      
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -67,3 +67,44 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+.container{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  gap: 20px;
+  justify-content: center;
+  /* align-items: center; */
+  
+}
+
+.card-img{
+    width: 200px;
+    border-radius: 2%;
+  }
+
+.card{
+    width: 200px;
+    align-items: center;
+    border-radius: 2%;
+    border: 1px solid #3a3a3a;
+    padding: 30px;
+    background: #000000;
+    box-shadow: #3a3a3a;
+  }
+
+
+
+  .artist{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .title{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    /* margin-top: 10px; */
+  }

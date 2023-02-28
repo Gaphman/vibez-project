@@ -1,0 +1,25 @@
+.parent-card-container {
+    display: flex;
+    flex-direction: row;
+    
+}
+.card-container{
+    height: 17rem;
+    width: 12rem;
+    border: 1px solid black;
+    border-radius: 6px;
+    background: black;
+    margin-left: 1.5rem;
+}
+.card-container h1 {
+    color: white;
+    font-size: 18px;
+}
+.card-container h6 {
+    color: whitesmoke
+}
+.song-cover{
+    padding-top: 1.5rem;
+    width: 10rem;
+    height: 10rem;
+}
